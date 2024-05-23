@@ -36,7 +36,7 @@ namespace NCRLog
             foreach(CROpportunityProducts product in lines)
             {
                 if (product.POCreate == true) return;
-                if (quote.POCreate == false || quote.POCreate == null)
+                if (product.POCreate == false || product.POCreate == null)
                 {
 
                     INItemSite site = SelectFrom<INItemSite>

@@ -91,14 +91,14 @@ namespace NCRLog
 
         #region SRfC
         public abstract class sRfC : BqlString.Field<sRfC> { }
-        [PXDBString(1024, IsUnicode = true)]
+        [PXDBText(IsUnicode = true)]
         [PXUIField(DisplayName = "Supplier Reason for Change")]
         public virtual string SRfC { get; set; }
         #endregion
 
         #region SRisks
         public abstract class sRisks : BqlString.Field<sRisks> { }
-        [PXDBString(1024, IsUnicode = true)]
+        [PXDBText(IsUnicode = true)]
         [PXUIField(DisplayName = "Risks Associated")]
         public virtual string SRisks { get; set; }
         #endregion
@@ -112,7 +112,7 @@ namespace NCRLog
 
         #region IRfC
         public abstract class iRfC : BqlString.Field<iRfC> { }
-        [PXDBString(1024, IsUnicode = true)]
+        [PXDBText(IsUnicode = true)]
         [PXUIField(DisplayName = "Internal Reason for Change")]
         public virtual string IRfC { get; set; }
         #endregion

@@ -144,7 +144,7 @@ namespace NCRLog
 
       #region Description
         public abstract class description : BqlString.Field<description> { }
-      [PXDBString(1024, IsUnicode = true)]
+      [PXDBText(IsUnicode = true)]
       [PXUIField(DisplayName = "Description")]
       public virtual string Description
         { get; set; }
@@ -152,7 +152,7 @@ namespace NCRLog
 
       #region CrctveAction
       public abstract class crctveAction : BqlString.Field<crctveAction> { }
-      [PXDBString(1024, IsUnicode = true)]
+      [PXDBText(IsUnicode = true)]
         [PXUIField(DisplayName = "Corrective Action")]
       public virtual string CrctveAction
         { get; set; }
