@@ -24,12 +24,21 @@ namespace NCRLog
       public SelectFrom<ECNLog>.
             Where<ECNLog.nCRNumber.IsEqual<ISORecord.docNumber.FromCurrent>.
                 And<ECNLog.docType.IsEqual<ISORecord.docType.FromCurrent>>>.View ECNs;
-      #endregion
 
-      #region Events
-      
+        public PXSetup<ISOSetup> AutoNumSetup;
+        #region Graph Constructor
+        public GilcrestMaint()
+        {
+            ISOSetup setup = AutoNumSetup.Current;
+        }
+        #endregion
 
-      protected virtual void _(Events.RowSelected<ISORecord> e)
+        #endregion
+
+        #region Events
+
+
+        protected virtual void _(Events.RowSelected<ISORecord> e)
       {
           ISORecord row = e.Row;
           if (row.DocType == "ECN")

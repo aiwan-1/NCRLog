@@ -381,8 +381,8 @@ C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\bin\Debug\ko\System.Sp
 C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\bin\Debug\ru\System.Spatial.resources.dll
 C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\NCRLog.csproj.AssemblyReference.cache
-C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\NCRLog.csproj.CoreCompileInputs.cache
-C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\NCRLog.csproj.Up2Date
+C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\QualityControl.csproj.AssemblyReference.cache
+C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\QualityControl.csproj.CoreCompileInputs.cache
+C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\QualityC.2A5B3DF2.Up2Date
 C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\NCRLog.dll
 C:\Acumatica ERP\Gilcrest\App_Data\Projects\NCRLog\NCRLog\obj\Debug\NCRLog.pdb

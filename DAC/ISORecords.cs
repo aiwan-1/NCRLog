@@ -12,12 +12,14 @@ using System.Text;
 using System.Threading.Tasks;
 using PX.Objects.GL;
 using static NCRLog.ISO;
+using PX.Objects.CS;
 using PX.Objects.AR;
 
 
 namespace NCRLog
 {
 	[PXCacheName(Messages.ISO)]
+    [PXPrimaryGraph(typeof(GilcrestMaint))]
 	public class ISORecord : IBqlTable
 	{
         #region Keys
@@ -35,7 +37,8 @@ namespace NCRLog
         #region DocNumber
         public abstract class docNumber : BqlString.Field<docNumber> { }
 		[PXDBString(15, IsKey = true, IsUnicode = true, InputMask = ">CCCCCCCCCCCCCCC")]
-        [PXDefault("        ", PersistingCheck = PXPersistingCheck.Nothing)]
+        [AutoNumber(typeof(ISOSetup.autoNumberingType),
+            typeof(ISORecord.date))]
 		[PXUIField(DisplayName = "Doc Number")]
 		public virtual string DocNumber
         { get; set; }
@@ -301,21 +304,21 @@ namespace NCRLog
         public const string Open = "O";
         public const string Close = "C";    
 
-       // public class AutoNumberingSequence
-       // {
-       //     public class AutoNbrAttribute : PXSelectorAttribute
-       //     {
-       //         public AutoNbrAttribute(Type SearchType) : base(SearchType,
-       //             typeof(ISORecords.docNumber),
-       //             typeof(ISORecords.status),
-       //             typeof(ISORecords.docType))
-       //         { }
-       //     }
-       //     public class NumberingAttribute : AutoNumberAttribute
-       //     {
-       //         public NumberingAttribute() : base(typeof(Search<ISORecords.docNumber>), typeof(AccessInfo.businessDate)) { }
-       //     }
-       // }
+        public class AutoNumberingSequence
+        {
+            public class AutoNbrAttribute : PXSelectorAttribute
+            {
+                public AutoNbrAttribute(Type SearchType) : base(SearchType,
+                    typeof(ISORecord.docType),
+                    typeof(ISORecord.docNumber),
+                    typeof(ISORecord.status))
+                { }
+            }
+            public class NumberingAttribute : AutoNumberAttribute
+            {
+                public NumberingAttribute() : base(typeof(Search<ISORecord.docNumber>), typeof(AccessInfo.businessDate)) { }
+            }
+        }
 
     }
 }

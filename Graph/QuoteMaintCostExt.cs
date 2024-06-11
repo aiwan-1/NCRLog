@@ -6,7 +6,7 @@ using PX.Objects.IN;
 using static PX.Objects.CR.QuoteMaint;
 using Tabs;
 
-namespace NCRLog
+namespace QualityControl
 {
     public class QuoteMaintCostExt : PXGraphExtension<PX.Objects.CR.QuoteMaint>
     {
@@ -31,28 +31,25 @@ namespace NCRLog
         protected virtual void updateCosts()
         {
             var quote = Products.Current;
-            if (quote.QuoteID == null || quote.POCreate == true) return;
+            if (quote.QuoteID == null) return;
             var lines = Products.Select();
             foreach(CROpportunityProducts product in lines)
             {
-                if (product.POCreate == true) return;
+                if (product.POCreate == true) continue;
                 if (product.POCreate == false || product.POCreate == null)
                 {
 
-                    INItemSite site = SelectFrom<INItemSite>
-                                     .Where<INItemSite.inventoryID.IsEqual<@P.AsInt>>
+                    InventoryItemCurySettings settings = SelectFrom<InventoryItemCurySettings>
+                                     .Where<InventoryItemCurySettings.inventoryID.IsEqual<@P.AsInt>>
                                      .View
                                      .Select(Base, product.InventoryID);
-
-                    if (site != null)
+                        
+                    if (settings != null)
                     {
-                        if (site.TranUnitCost != null)
-                        {
-
-                            product.CuryUnitCost = site.TranUnitCost;
+                            product.CuryUnitCost = settings.StdCost;
 
                             Products.Update(product);
-                        }
+                    
                     }
                 }
             }

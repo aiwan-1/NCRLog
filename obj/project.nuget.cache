@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a9t4+LwaSNac2wU3KAWhxROLJzj4NHYCsv2MbCfmPn/eBlB6HiChde7FUcm3WLOHWURm/jMzWlm5tQIymVHgKg==",
+  "dgSpecHash": "tG4iSbwwVz4=",
   "success": true,
-  "projectFilePath": "C:\\Acumatica ERP\\Gilcrest1\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
+  "projectFilePath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Aiwan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
-    "C:\\Users\\Aiwan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Aiwan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\aiwan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\aiwan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\aiwan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

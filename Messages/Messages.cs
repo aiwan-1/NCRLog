@@ -19,5 +19,6 @@ namespace NCRLog
         public const string D = "Deviation";
 
         public const string ISO = "ISO Records";
+        public const string ISOSetup = "ISO Records Setup/Preferences";
     }
 }

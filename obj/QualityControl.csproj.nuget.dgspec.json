@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj": {}
+    "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\QualityControl.csproj": {}
   },
   "projects": {
-    "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj": {
+    "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\QualityControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
+        "projectUniqueName": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\QualityControl.csproj",
         "projectName": "NCRLog",
-        "projectPath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
+        "projectPath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\QualityControl.csproj",
         "packagesPath": "C:\\Users\\aiwan\\.nuget\\packages\\",
         "outputPath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\obj\\",
         "projectStyle": "PackageReference",

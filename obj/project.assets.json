@@ -375,24 +375,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aiwan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\aiwan\\.nuget\\packages\\": {},
+    "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Acumatica ERP\\Gilcrest1\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
+      "projectUniqueName": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
       "projectName": "NCRLog",
-      "projectPath": "C:\\Acumatica ERP\\Gilcrest1\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
-      "packagesPath": "C:\\Users\\Aiwan\\.nuget\\packages\\",
-      "outputPath": "C:\\Acumatica ERP\\Gilcrest1\\App_Data\\Projects\\NCRLog\\NCRLog\\obj\\",
+      "projectPath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\NCRLog.csproj",
+      "packagesPath": "C:\\Users\\aiwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Acumatica ERP\\Gilcrest\\App_Data\\Projects\\NCRLog\\NCRLog\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aiwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aiwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -407,6 +407,11 @@
         "net48": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
