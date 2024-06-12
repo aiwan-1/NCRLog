@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PX.Data.BQL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,5 +21,20 @@ namespace NCRLog
 
         public const string ISO = "ISO Records";
         public const string ISOSetup = "ISO Records Setup/Preferences";
+
+        public const string QualityControl = "End of Line Quality Checks";
+
+        public const string O = "O";
+
+        public class move : BqlString.Constant<move>
+        {
+            public move() : base(O)
+            {
+            }
+        }
+
+        public const string MoveNotFound = "Move not Found";
+        public const string PressGlueLog = "Press & Glue Log";
+        public const string QCDetails = "Qualit Control Details";
     }
 }

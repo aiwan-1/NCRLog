@@ -70,9 +70,15 @@
     <Compile Include="DAC\ECNLog.cs" />
     <Compile Include="DAC\ISORecords.cs" />
     <Compile Include="DAC\ISOSetup.cs" />
+    <Compile Include="DAC\PressGlueLogDetails.cs" />
+    <Compile Include="DAC\PressGlueLogHeader.cs" />
+    <Compile Include="DAC\QCDetails.cs" />
+    <Compile Include="DAC\QualityControl.cs" />
     <Compile Include="Examples.cs" />
+    <Compile Include="Graph\GCQualityControlEntry.cs" />
     <Compile Include="Graph\GilcrestMaint.cs" />
     <Compile Include="DAC\NCRLog.cs" />
+    <Compile Include="Graph\PressGlueLogEntry.cs" />
     <Compile Include="Graph\QuoteMaintCostExt.cs" />
     <Compile Include="Messages\Messages.cs" />
     <Compile Include="Graph\QualityControlSetupMaint.cs" />
